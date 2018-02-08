@@ -1,7 +1,10 @@
 # tmux-conf
-my tmux conf
+my zsh env config info
 
-将内容放到 `~/.tmux.conf`。通过[tmp](https://github.com/tmux-plugins/tpm)安装需要的插件
+为了方便查看一些状态信息，比如git。我使用[oh-my-zsh]() 配置自己的zsh。
+
+> 首先需要按照oh-my-zsh，然后增加plugin 配置和最后的个性化设置
+> 将tmux 配置文件copy 为 `~/.tmux.conf`。通过[tmp](https://github.com/tmux-plugins/tpm)安装需要的插件
 
 ### 注意事项
 
