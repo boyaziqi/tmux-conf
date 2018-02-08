@@ -93,3 +93,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python2.7
+export WORKON_HOME=~/Envs
+source /usr/local/bin/virtualenvwrapper.sh
