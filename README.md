@@ -1,9 +1,15 @@
-# tmux-conf
-my zsh env
+# my zsh env conf
+
+我的 zsh 环境配置, 包括 oh-my-zsh, tmux, vi
+
+### 使用
 
 1, 首先需要安装 oh-my-zsh，然后增加 plugins 配置和最后的个性化设置
 
 2, 将tmux 配置文件copy 为 `~/.tmux.conf`。通过[tmp](https://github.com/tmux-plugins/tpm)安装需要的插件
+```shell
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
 
 ### 注意事项
 
