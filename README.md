@@ -11,3 +11,9 @@ my zsh env
 具体可以查看我的 [vimrc 配置](https://github.com/boyaziqi/vimrc_config)
 
 - zshrc 里 plugins 选项中的 vi-mode 和 history-substring-search 顺序不能颠倒，不然 vi 模式 方向键不能正确搜索历史命令
+
+- tmux 可能无法共享系统剪贴板，如果使用item，勾选上`Applications in terminal may access clipboard`即可。如果通过
+    `reattach-to-user-namespace` 解决，需要首先安装，然后在取消相应行注释。不然启动会报错。macos 执行如下命令安装：
+```shell
+    brew install reattach-to-user-namespace
+```
